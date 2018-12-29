@@ -41,6 +41,8 @@ if (process.env.NODE_ENV === 'dev') {
     urlDB = process.env.MONGO_URI;
 }
 
+//mongoose.connect("mongodb://localhost:27017/YourDB", { useNewUrlParser: true });
+
 process.env.URLDB = urlDB;
 
 //==============================
